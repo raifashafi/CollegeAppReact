@@ -1,10 +1,11 @@
 import axios from 'axios'
 import React, { useEffect, useState } from 'react'
+import Navbar from './Navbar'
 
 const View = () => {
     const [data,setData] = useState([])
     const fetchData=()=>{
-        axios.get("https://anishpdm.github.io/dummy-api-new/student.json").then(
+        axios.get("https://courseapplogix.onrender.com/getdata").then(
             (response)=>{
                 console.log(response.data)
                 setData(response.data)
@@ -14,6 +15,7 @@ const View = () => {
     useEffect(()=>{fetchData()},[])
   return (
     <div>
+      <Navbar/>
      <div className="container">
         <div className="row">
             <div className="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
