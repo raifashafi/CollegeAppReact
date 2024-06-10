@@ -36,7 +36,7 @@ const About = () => {
                                 <div className="col col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-3">
 
 
-                                    <div class="card">
+                                    <div className="card">
                                         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzo0PmFdTk64FfGUaFhJQldkBaLlqbh8ng_w&s" height="250px" class="card-img-top" alt="..."/>
                                             <div class="card-body">
                                                 <h5 class="card-title">CAMPUS LIFE</h5>
